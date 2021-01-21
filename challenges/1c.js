@@ -9,9 +9,7 @@
 // * Hint: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)
 
 function first3(string){
-  return(
-    // your code here
-  )
+  return(string.substring(0,2));
 }
 
 module.exports = first3;
